@@ -1,0 +1,47 @@
+=begin
+
+Q1: Variables
+
+Create a variable and set it equal to ‘variable’.
+
+A1: Var = 'variable'
+
+What are some different data types? Write a few examples
+
+A1: There eight primary data types in Ruby. a few exemples would be: Constants (STANDARD_VALIDITY_YRS = 5), or Hashes (car_one = {wheels:4, max_speed:150, color:'metallic rubyred'} ), Arrays (cars = [car_one,car_two] ) and Strings( my_name = "Niclas" )
+
+
+
+
+Q2: Hashes and Arrays
+Open irb. We’re going to make some cars.
+Create two hashes, one for each `car`, with the following attributes: `wheels`, `max_speed`, `color`
+
+A2: car1 = {wheels:4, max_speed:150, color:'metallic rubyred'}
+car2 = {wheels:3, max_speed:120, color:'silver with flames'}
+
+
+Create an array that contains both cars.
+
+A2: cars = [car1,car2]
+
+How do we use the array to access the second car? How do we find the second car’s `color`?
+
+A2: cars[1][:color]
+
+
+
+
+
+Q4: Rspec
+
+How do you initialize `rspec` in a folder?
+
+A4: First, I would type bundle install in the command line.
+Then I would type "rspec --init" in the command line. I make sure to be in the folder week_1_assesssment when initialize, a directory with the two subdirectories lib/car.rb and spec/car_spec-rb. Then I would create a Gemfile - with the gem 'rspec' in it - in the week_1_assessment directory.
+
+
+We would ordinarily have written our tests first, then written code to make them pass. Why?
+
+A4: Writing a test is a good way to think through the problem/s at hand before we even have written any code, and also we can specify the what kind of functions/behaviour we are expecting and/ want the solution to perform.
+=end
